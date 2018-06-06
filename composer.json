@@ -1,0 +1,21 @@
+{
+    "name": "oquiz/dimitri",
+    "description": "oquiz",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Dimitri",
+            "email": "dimitri.tei@hotmail.fr"
+        }
+    ],
+    "require": {
+      "altorouter/altorouter": "^1.2",
+      "league/plates": "^3.3",
+      "symfony/var-dumper": "3.3"
+    },
+    "autoload": {
+      "psr-4": {
+        "Oquiz\\": "src/"
+      }
+    }
+}
